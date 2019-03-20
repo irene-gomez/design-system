@@ -1,15 +1,12 @@
+@import 'core/variables';
+@import 'components/typography';
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: 'Rubik', sans-serif;
-  font-size: 16px;
-  line-height: 1.4;
-  background-color: #3CDBC0;
-  color: #4a4a4a;
-  font-weight: 400;
+  background-color: $color-greenSea;
   min-height: 100vh;
 }
 
@@ -20,7 +17,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #fff;
+  background-color: $color-whiteSnow;
   text-align: center;
   padding: 10px 10px 3px 10px;
 }
@@ -84,7 +81,7 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
   font-size: 30px;
-  color: #fff;
+  color: $color-whiteSnow;
   font-weight: 700;
   max-width: 210px;
   text-transform: capitalize;

@@ -1,0 +1,21 @@
+body {
+    font-family: $font-family;
+    font-size: $font-size;
+    line-height: $line-height;
+    color: $color-rockGrey;
+    font-weight: $font-weight;
+  }
+
+.txt-sm{
+      font-size:14px;
+      @media (min-width:1024px){
+          font-size:16px;
+          line-height:1.5;
+      }
+  }
+  .txt-md{
+    font-size:16px;
+}
+.txt-lg{
+    font-size:20px;
+}
